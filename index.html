@@ -16,63 +16,69 @@
         <header>
 
             <nav>
-                <a href="#"><img src="img/logo1.png" alt="Logo til firma" class="responsive-image"></a>
+                <a class="logo" href="#"><img src="img/logo1.png" alt="Logo til firma"></a>
 
                 <ul class="navi">
                     <li><a href="produkt.html">Home</a></li>
                     <li><a href="produkt.html">Portfolio</a></li>
                     <li><a href="produkt.html">About</a></li>
-                    <li><a href="produkt.html">Contact</a></li>
-                </ul>
-
-                <section>
-                    <h1>Compeling headline</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <a href="#">Read more about our services</a>
-                </section>
+                    <li class="gulbox"><a href="produkt.html">Contact</a></li>
+                </ul>  
             </nav>
+
+                <section id="backround">
+                    <h1>Compeling headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <a class="gulbox" href="#">Read more about our services</a>
+                </section>
 
         </header>
 
         <main>
-            <section>
+            <section id="sub">
                 <h2>Enganging subheading. What can you help your visitors with</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </section>
 
-            <section>
-                <img src="img/placeholder.png" alt="Placeholder bildet 400 x 400" class="responsive-image">
-                <h2>About Our Company</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <a href="#">Read more about us</a>
+            <section id="about">
+                <img class="placeholder" src="img/placeholder.png" alt="Placeholder bildet 400 x 400">
+                <section>
+                    <h3>About Our Company</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <a id="svartfir" href="#">Read more about us</a>
+                </section>
             </section>
 
-            <section>
+            <section id="service">
                 <h2>Our Services</h2>
 
                 <article>
                     <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
 
                 <article>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
 
                 <article>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+
+                <article>
+                    <h3>Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
 
             </section>
 
-            <section>
+            <section id="sign">
                 <h2>Sign up for our newsletter</h2>
 
                 <form>
-                    <label for="email-signup">E-post for nyhetsbrevpåmelding</label>
-                    <input type="text" id="email-signup">
+                    <input type="email" name="email" placeholder="nora@epost.no" id="email" required>
                     <input type="submit" value="Sign me up!">
                 </form>
             </section>
@@ -80,7 +86,7 @@
 
         <footer>
 
-            <a href="#"><img src="img/logo1.png" alt="Logo til firma" class="responsive-image"></a>
+            <a class="logo" href="#"><img src="img/logo1.png" alt="Logo til firma"></a>
             <p>Companyrights Companyname 2023</p>
             <ul>
                 <li><a href="produkt.html">Facebook</a></li>
