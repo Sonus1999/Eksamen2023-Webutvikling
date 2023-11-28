@@ -23,6 +23,7 @@ body {
 
 
 
+
 header {
     grid-area: header;
     text-align: center;
@@ -108,6 +109,10 @@ main section {
     display: flex;
     background-color: #e6bd43;
     padding: 2rem;
+}
+
+#about img{
+    max-width: 100%;
 }
 
 #svartfir {
@@ -213,13 +218,6 @@ form input[id=message] {
     text-align: center;
 }
 
-#contact {
-    text-align: start;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 #mellomrom {
     padding: 1rem 0 2rem 0;
 }
@@ -227,6 +225,13 @@ form input[id=message] {
 #epost{
     text-decoration: underline;
     color: #1b73e8;
+}
+
+#contact {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #contact article {
@@ -243,7 +248,7 @@ form input[id=message] {
 }
 
 .map {
-    padding-bottom: 12%;
+    padding-bottom: 15%;
     position: relative;
 }
 
@@ -299,8 +304,92 @@ footer ul {
         grid-template-areas:"header" "main" "footer"
     }
 
-    #backroundabout {
+
+
+
+
+    header nav {
+        flex-direction: column;  
+    }
+
+    .logo{
+        margin: 2rem 0 0 0;
+    }
+
+    .navi {
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem;
+    }
+
+    .backround {
+        padding: 4rem 2rem 3rem 2rem;
+    }
+
+
+    
+
+
+    #sentrer {
+        text-align: center;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service article {
+        max-width: none;
+    }
+
+    #sign {
+        padding: 2rem 1rem 4rem 1rem;
+    }
+
+#contact {
+        flex-direction: column;
+        padding: 0;
+        max-width: 0;
+        margin: 0;
+    }
+
+    #boks {
+        flex-direction: column;
         padding: 3rem;
+        max-width: none; 
+    }
+
+    form input[type=text] {
+        border: 0;
+        padding: 1rem 5rem 1rem 1rem;
+    }
+    
+    form input[id=message] {
+        border: 0;
+        padding: 8rem 5rem 1rem 1rem;
+    }
+
+    #farge {
+        padding: 1rem;
+    }
+
+
+
+
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer ul {
+        margin: 1rem 0;
     }
 
 }
