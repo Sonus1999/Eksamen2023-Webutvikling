@@ -53,7 +53,6 @@ header nav {
     align-items: center;
     margin: 1rem;
     gap: 1rem;
-    
     font-weight: 700;
 }
 
@@ -247,6 +246,8 @@ form input[id=message] {
     padding: 0 0 1rem 0;
 }
 
+/* /Henviser til kilde lagt med i PDF dokument (Google maps tutorial), da jeg lærte dette fra en ekstern nettside */
+
 .map {
     padding-bottom: 15%;
     position: relative;
@@ -352,7 +353,7 @@ footer ul {
         padding: 2rem 1rem 4rem 1rem;
     }
 
-#contact {
+    #contact {
         flex-direction: column;
         padding: 0;
         max-width: 0;
