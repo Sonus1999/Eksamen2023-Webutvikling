@@ -1,6 +1,7 @@
 * {
     text-decoration: none;
     color: #000;
+    list-style: none;
 }
 
 body {
@@ -22,8 +23,9 @@ body {
 
 header {
     grid-area: header;
-    margin: 0rem;
     text-align: center;
+    margin: 0rem;
+    
 }
 
 header section h1 {
@@ -45,10 +47,10 @@ header nav {
 
 .navi {
     display: flex;
-    list-style: none;
+    align-items: center;
     margin: 1rem;
     gap: 1rem;
-    align-items: center;
+    
     font-weight: 700;
 }
 
@@ -66,8 +68,27 @@ header nav {
     padding: 4rem 8rem 3rem 8rem;
 }
 
+#backroundabout {
+    background-image: url("../img/placeholder2.png");
+    background-size: cover;
+    padding: 3rem 3rem 3rem 50rem;
+}
+
+#boks {
+    background-color: #fff;
+    padding: 3rem;
+    text-align: start;
+}
+
+
+
+
+
 main {
     grid-area: main;
+}
+
+#sentrer {
     text-align: center;
 }
 
@@ -76,36 +97,35 @@ main section {
 }
 
 #about {
-    text-align: start;
-    background-color: #e6bd43;
+    text-align: start; 
     display: flex;
+    background-color: #e6bd43;
     padding: 2rem;
-}
-
-.placeholder {
-    max-width: 100%;
 }
 
 #svartfir {
     display: inline-block;
     border: 2px solid #000;
     padding: 1rem;
-    font-weight: 700;
-    
+    font-weight: 700; 
+}
+
+.svartboks {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 0.5rem;
 }
 
 #service {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap; 
+    text-align: center;
 }
 
 #service h2 {
     width: 100%;
-    text-align: center;
 }
 
 #service article {
@@ -113,7 +133,6 @@ main section {
 }
 
 #sign {
-    text-align: center;
     background-color: #efefef;
 }
 
@@ -134,6 +153,58 @@ form input[type=submit] {
     padding: 1rem;
 }
 
+form input[type=text] {
+    border: 0;
+    padding: 1rem;
+}
+
+#strek h2 {
+    border-bottom: 3px solid #e6bd43;
+    padding: 0 0 1rem 0;
+}
+
+#explore article ul {
+    padding: 3rem 0 0 0;
+}
+
+.artikkel1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: row;
+    padding: 0;
+    gap: 2rem;
+}
+
+.artikkel1 article {
+    max-width: 350px;
+    min-width: 200px;
+    padding: 0 3rem 0 0;
+}
+
+#firma {
+    background-color: #e6bd43;
+    text-align: center;
+}
+
+#contact {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
 
 
 
@@ -148,11 +219,10 @@ footer {
 
 footer p {
     color: #fff;
-    margin: 0 0 0 6rem;
+    margin: 0 0 0 7.5rem;
 } 
 
 footer ul {
-    list-style: none;
     display: flex;
     gap: 0.5rem;
     margin: 0 1rem 0 0;
@@ -163,6 +233,7 @@ footer ul li a{
     color: #fff;
     font-weight: 700;
 }
+
 
 
 
