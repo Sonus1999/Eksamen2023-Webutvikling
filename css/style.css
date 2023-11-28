@@ -62,7 +62,7 @@ header nav {
     margin: 0;
 }
 
-#backround {
+.backround {
     background-image: url("../img/placeholder2.png");
     background-size: cover;
     padding: 4rem 8rem 3rem 8rem;
@@ -71,11 +71,11 @@ header nav {
 #backroundabout {
     background-image: url("../img/placeholder2.png");
     background-size: cover;
-    padding: 3rem 3rem 3rem 50rem;
+    padding: 3rem 3rem 3rem 25rem;
 }
 
 #boks {
-    background-color: #fff;
+    background-color: rgba(250,250,250,.9);;
     padding: 3rem;
     text-align: start;
 }
@@ -116,7 +116,7 @@ main section {
     padding: 0.5rem;
 }
 
-#service {
+.service {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -124,11 +124,12 @@ main section {
     text-align: center;
 }
 
-#service h2 {
+.service h2 {
     width: 100%;
+    padding: 0 0 4rem 0;
 }
 
-#service article {
+.service article {
     max-width: 175px;
 }
 
@@ -155,7 +156,12 @@ form input[type=submit] {
 
 form input[type=text] {
     border: 0;
-    padding: 1rem;
+    padding: 1rem 20rem 1rem 1rem;
+}
+
+form input[id=message] {
+    border: 0;
+    padding: 8rem 20rem 1rem 1rem;
 }
 
 #strek h2 {
@@ -186,13 +192,37 @@ form input[type=text] {
     text-align: center;
 }
 
-#contact {
-    background-color: #efefef;
+#farge {
+    background-color: #efefef; 
+}
+
+#farge h2 {
     text-align: center;
 }
 
+#contact {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#contact article {
+    max-width: 500px;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+#contact article ul {
+    padding: 0rem;
+}
+
+#contact article ul li {
+    padding: 0 0 1rem 0;
+}
+
 .map {
-    padding-bottom: 50%;
+    padding-bottom: 12%;
     position: relative;
 }
 
